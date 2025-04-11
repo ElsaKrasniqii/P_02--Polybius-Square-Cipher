@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/P_02--Polybius-Square-Cipher.iml" filepath="$PROJECT_DIR$/.idea/P_02--Polybius-Square-Cipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P_02--Polybius-Square-Cipher.iml" filepath="$PROJECT_DIR$/P_02--Polybius-Square-Cipher.iml" />
     </modules>
   </component>
 </project>
