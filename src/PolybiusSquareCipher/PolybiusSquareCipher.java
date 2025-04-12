@@ -2,7 +2,7 @@ package PolybiusSquareCipher;
 
 import java.util.Scanner;
 
-public class PolybiusSquareCipher {
+public class 2PolybiusSquareCipher {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
