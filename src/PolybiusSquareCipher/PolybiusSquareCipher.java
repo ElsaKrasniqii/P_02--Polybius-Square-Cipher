@@ -26,7 +26,7 @@ public class PolybiusSquareCipher {
                 String decryptedText = PolybiusSquareDecrypt.decrypt(cipherText);
                 System.out.println("Teksti i dekriptuar është: " + decryptedText);
             } else if (choice == 3) {
-
+                PolybiusSquareExample.runExamples();
             } else if (choice == 0) {
                 System.out.println("Dalim...");
                 break;
