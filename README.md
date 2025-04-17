@@ -17,3 +17,19 @@ Shembull i katrorit të përdorur:
 4 | Q   R   S   T   U
 5 | V   W   X   Y   Z
 
+
+
+## Shembull perdorimi
+
+Kur programi fillon, do te te ofroje nje meny me opsionet:
+1. Enkriptim
+2. Dekriptim
+3. Shfaq Shembujt
+0. Dalje
+
+Zgjedh dhe ndjek udhezimet per te futur tekstin.
+
+## 👨‍💻 Autori / Kontributi
+
+Ky projekt eshte zhvilluar si pjese e nje kursi universitar ne programim ose siguri te te dhenave.
+
