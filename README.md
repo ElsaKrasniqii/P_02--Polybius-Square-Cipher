@@ -17,7 +17,28 @@ Shembull i katrorit të përdorur:
 4 | Q   R   S   T   U
 5 | V   W   X   Y   Z
 
+## Funksionalitetet dhe mënyra e përdorimit
 
+# Funksionalitetet
+
+Ky kod ofron mundësi të enkriptimit dhe dekriptimit të fjalëve të ndryshme përmes algoritmit Polybius Square Cipher.
+
+- Enkriptim i tekstit  
+- Dekriptim i tekstit të koduar  
+- Shembuj demonstrues për testim  
+- Mbështetje për hapësira në tekst  
+- Mënyrë interaktive për përdoruesin në terminal
+
+##  Si të ekzekutohet
+
+-  Sigurohu që ke instaluar Java (JDK).
+-  Hape projektin në një editor si IntelliJ IDEA, VS Code, ose përdor terminalin.
+-  Kompilo dhe ekzekuto klasën `PolybiusSquareCipher.java`.
+
+### Kompilimi nga terminali:
+
+javac PolybiusSquareCipher.java PolybiusSquareEncrypt.java PolybiusSquareDecrypt.java PolybiusSquareExample.java
+java PolybiusSquareCipher
 
 ## Shembull perdorimi
 
@@ -29,7 +50,7 @@ Kur programi fillon, do te te ofroje nje meny me opsionet:
 
 Zgjedh dhe ndjek udhezimet per te futur tekstin.
 
-## 👨‍💻 Autori / Kontributi
+##  Autori / Kontributi
 
 Ky projekt eshte zhvilluar si pjese e nje kursi universitar ne programim ose siguri te te dhenave.
 
