@@ -19,7 +19,7 @@ Shembull i katrorit të përdorur:
 
 ## Funksionalitetet dhe mënyra e përdorimit
 
-# Funksionalitetet
+## Funksionalitetet
 
 Ky kod ofron mundësi të enkriptimit dhe dekriptimit të fjalëve të ndryshme përmes algoritmit Polybius Square Cipher.
 
@@ -35,7 +35,7 @@ Ky kod ofron mundësi të enkriptimit dhe dekriptimit të fjalëve të ndryshme 
 -  Hape projektin në një editor si IntelliJ IDEA, VS Code, ose përdor terminalin.
 -  Kompilo dhe ekzekuto klasën `PolybiusSquareCipher.java`.
 
-### Kompilimi nga terminali:
+## Kompilimi nga terminali:
 
 javac PolybiusSquareCipher.java PolybiusSquareEncrypt.java PolybiusSquareDecrypt.java PolybiusSquareExample.java
 java PolybiusSquareCipher
