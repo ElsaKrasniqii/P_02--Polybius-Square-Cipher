@@ -15,7 +15,7 @@ public class PolybiusSquareEncrypt {
         StringBuilder encryptedText = new StringBuilder();
 
         for (char ch : text.toCharArray()) {
-            if (ch != ' ') {
+            if (Character.isLetter(ch)) {
                 for (int i = 1; i < square.length; i++) {
                     for (int j = 1; j < square[i].length; j++) {
                         if (square[i][j].equals(String.valueOf(ch))) {
@@ -24,7 +24,7 @@ public class PolybiusSquareEncrypt {
                     }
                 }
             } else {
-                encryptedText.append(" ");
+                encryptedText.append(ch);
             }
         }
         return encryptedText.toString();
