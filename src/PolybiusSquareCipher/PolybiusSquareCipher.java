@@ -16,11 +16,17 @@ public class PolybiusSquareCipher {
             scanner.nextLine();
 
             if (choice == 1) {
-
+                System.out.println("Shkruaj fjalën për enkriptim:");
+                String text = scanner.nextLine();
+                String encryptedText = PolybiusSquareEncrypt.encrypt(text);
+                System.out.println("Teksti i enkriptuar është: " + encryptedText);
             } else if (choice == 2) {
-
+                System.out.println("Shkruaj fjalën për dekriptim:");
+                String cipherText = scanner.nextLine();
+                String decryptedText = PolybiusSquareDecrypt.decrypt(cipherText);
+                System.out.println("Teksti i dekriptuar është: " + decryptedText);
             } else if (choice == 3) {
-
+                PolybiusSquareExample.runExamples();
             } else if (choice == 0) {
                 System.out.println("Dalim...");
                 break;
