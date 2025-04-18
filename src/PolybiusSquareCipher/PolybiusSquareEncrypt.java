@@ -12,6 +12,13 @@ public class PolybiusSquareEncrypt {
 
     public static String encrypt(String text) {
         text = text.toUpperCase().replace("J", "I");
+
+        for (char ch : text.toCharArray()) {
+            if (!Character.isLetter(ch) && ch != ' ') {
+                return "Teksti duhet të përmbajë vetëm shkronja (A-Z) dhe hapësira.";
+            }
+        }
+
         StringBuilder encryptedText = new StringBuilder();
 
         for (char ch : text.toCharArray()) {
@@ -24,10 +31,11 @@ public class PolybiusSquareEncrypt {
                         }
                     }
                 }
-            } else {
-                encryptedText.append(ch);
+            } else if (ch == ' ') {
+                encryptedText.append(" ");
             }
         }
+
         return encryptedText.toString();
     }
 }
