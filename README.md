@@ -10,12 +10,7 @@ Polybius përdor një **katror 5x5** për të zëvendësuar çdo shkronjë të a
 
 Shembull i katrorit të përdorur:
 
-    1   2   3   4   5
-1 | A   B   C   D   E
-2 | F   G   H   I/J K
-3 | L   M   N   O   P
-4 | Q   R   S   T   U
-5 | V   W   X   Y   Z
+<pre> ``` 1 2 3 4 5 1 | A B C D E 2 | F G H I/J K 3 | L M N O P 4 | Q R S T U 5 | V W X Y Z ``` </pre>
 
 ## Funksionalitetet dhe mënyra e përdorimit
 
