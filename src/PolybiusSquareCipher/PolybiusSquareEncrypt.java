@@ -15,7 +15,7 @@ public class PolybiusSquareEncrypt {
 
         for (char ch : text.toCharArray()) {
             if (!Character.isLetter(ch) && ch != ' ') {
-                return "Teksti duhet të përmbajë vetëm shkronja (A-Z) dhe hapësira.";
+                return "Teksti nuk duhet te permbaje numra apo karaktere.";
             }
         }
 
