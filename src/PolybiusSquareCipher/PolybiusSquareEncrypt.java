@@ -20,6 +20,7 @@ public class PolybiusSquareEncrypt {
                     for (int j = 1; j < square[i].length; j++) {
                         if (square[i][j].equals(String.valueOf(ch))) {
                             encryptedText.append(i).append(j);
+                            break;
                         }
                     }
                 }
