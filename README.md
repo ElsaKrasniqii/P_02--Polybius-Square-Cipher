@@ -47,5 +47,22 @@ Zgjedh dhe ndjek udhezimet per te futur tekstin.
 
 ##  Autori / Kontributi
 
+## Struktura e projektit dhe ide per permiresim
+Përmbajtja: Struktura e projektit dhe ide për përmirësim
+
+
+##  Struktura e skedarëve
+
+- `PolybiusSquareCipher.java` – Klasa kryesore që përmban menynë dhe logjikën interaktive  
+- `PolybiusSquareEncrypt.java` – Përmban logjikën e enkriptimit  
+- `PolybiusSquareDecrypt.java` – Përmban logjikën e dekriptimit  
+- `PolybiusSquareExample.java` – Përmban shembuj praktikë për testim
+
+##  Ide për përmirësim
+
+- Mbështetje për shkronjat `J` të veçanta  
+- Ruajtja e rezultateve në skedar  
+- Ndërfaqe grafike (GUI) me JavaFX ose Swing
+
 Ky projekt eshte zhvilluar si pjese e nje kursi universitar ne programim ose siguri te te dhenave.
 
