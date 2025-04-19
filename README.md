@@ -55,6 +55,8 @@ Zgjedh dhe ndjek udhezimet per te futur tekstin.
 
 ##  Autori / Kontributi
 
+Ky projekt është zhvilluar si pjesë e një kursi universitar në programim ose siguri të të dhënave.
+
 ## Struktura e projektit dhe ide per permiresim
 Përmbajtja: Struktura e projektit dhe ide për përmirësim
 
